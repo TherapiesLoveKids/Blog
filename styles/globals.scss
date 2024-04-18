@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --B1: #0095A5;
+    --B2: #095F68;
+    --B3: #171E46;
+    --B4: #0B131A;
+
+    --R1: #BC000A;
+    --Y1: #E8B100;
+    --G1: #008E2B;
+
+
+    --BL1: #4e4e4e;
+    --BL2: #737373;
+    --BL3: #efefef;
+    --BL4: #FEFEFE;
+
+    /* TRANSPARENCY */
+
+    --BL4-T: #fefefe6b;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--BL4) !important;
+}
+
+/* FONT */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Maven Pro';
+    color: var(--BL1);
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* VARIANTS */
+
+.select-block {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.slick-dots li button:before {
+    color: var(--B1) !important;
+    font-size: 10px !important;
+    margin-top: 25px;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+
+/* BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--BL4);
+    margin: 10px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--BL2);
+    border-radius: 25px;
+}
+
+::-moz-scrollbar {
+    width: 8px;
+}
+
+::-moz-scrollbar-track {
+    background: var(--BL3);
+}
+
+::-moz-scrollbar-thumb {
+    background: var(--BL2);
+}
